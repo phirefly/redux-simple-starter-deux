@@ -2,9 +2,9 @@
 
 export default function() {
   return [
-    {title: "Good night Moon"},
-    {title: "The Martian"},
-    {title: "Auggie and Me"},
-    {title: "The Circle"}
+    {title: "Good night Moon", pages: 100 },
+    {title: "The Martian", pages: 50 },
+    {title: "Auggie and Me", pages: 52},
+    {title: "The Circle", pages: 5}
   ]
 }
