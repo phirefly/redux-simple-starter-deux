@@ -6,8 +6,8 @@ export default class App extends Component {
   render() {
     return (
       <div>
-        <div><BookList /></div>
-        <div><BookDetail /></div>
+        <BookList />
+        <BookDetail />
       </div>
     );
   }
