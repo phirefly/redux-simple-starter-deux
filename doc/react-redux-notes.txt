@@ -1,0 +1,13 @@
+## Components vs containers
+We want to decide on a component or Container
+When to use a container -> when we want to a component to touch the Redux state directly
+
+# How to make a component a container
+1. Create a new file in the 'containers' folder
+2. Add the necessary boilerplate to make it available in the template
+3. Import into the template
+4. Hook it up to the redux store
+- Import the Connect helpder
+- Connect our application state to the props of the container (by defining a function 'mapStateToProps')
+- Connect 'mapStateToProps' to the container
+
