@@ -4,7 +4,10 @@ import { connect } from 'react-redux'
 class BookDetail extends Component {
   render() {
     return (
-    <div>Book Detail</div>
+    <div>
+      Book Details for:
+      {this.props.book.title}
+    </div>
     );
   }
 }
